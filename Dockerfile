@@ -9,5 +9,4 @@ RUN git clone https://github.com/tgrohens/test_cowsay.git
 # Install Python environment
 WORKDIR /usr/src/test_cowsay
 RUN uv sync --frozen
-RUN uv pip install .
 
